@@ -1,0 +1,12 @@
+project Firstlabpcp_Ada is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("firstlabpcp.adb");
+
+   package Compiler is
+      for Switches ("ada") use ("-gnat2020");
+   end Compiler;
+
+end Firstlabpcp_Ada;
+
