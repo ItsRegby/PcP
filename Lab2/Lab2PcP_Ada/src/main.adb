@@ -6,12 +6,12 @@ with Ada.Numerics.Discrete_Random;
 procedure Main is
 
    task type MinElementSearchTask is
-      pragma Storage_Size (1_000_000_000);
+      pragma Storage_Size (10_000_000);
    end MinElementSearchTask;
 
    task body MinElementSearchTask is
 
-      NumOfThreads  : constant Integer := 5;
+      NumOfThreads  : constant Integer := 4;
       NumOfElements : constant Integer := 1_000_000;
 
       ArrayOfElements : array (1 .. NumOfElements) of Integer;
@@ -34,7 +34,7 @@ procedure Main is
          CurrentMinIndex : Integer := StartIndex;
       begin
          for Index in StartIndex .. EndIndex loop
-            if ArrayOfElements (Index) < ArrayOfElements (CurrentMinIndex) then
+            if ArrayOfElements(Index) < ArrayOfElements(CurrentMinIndex) then
                CurrentMinIndex := Index;
             end if;
          end loop;
@@ -43,11 +43,11 @@ procedure Main is
 
       task body ElementSearcher is
          StartIndex, EndIndex : Integer;
-         FoundMinIndex        : Integer := 0;
+         FoundMinIndex : Integer := 0;
       begin
          accept Start (StartIndex, EndIndex : in Integer) do
-            ElementSearcher.StartIndex  := StartIndex;
-            ElementSearcher.EndIndex    := EndIndex;
+            ElementSearcher.StartIndex := StartIndex;
+            ElementSearcher.EndIndex := EndIndex;
          end Start;
          FoundMinIndex :=
            FindMinimumIndex (StartIndex => StartIndex, EndIndex => EndIndex);
@@ -71,12 +71,10 @@ procedure Main is
       begin
          Reset (RandomGen);
          RandomIndex := Integer (Random (RandomGen));
-         ArrayOfElements (RandomIndex) := -1;
+         ArrayOfElements (RandomIndex) := -111;
          Put_Line("New minimum set - index:" & RandomIndex'Img & " number:" &
             ArrayOfElements (RandomIndex)'Img);
       end SetRandomMinimum;
-
-
 
       protected body UpdateHandler is
          procedure SetMinimumIndex (FoundMinIndex : in Integer) is
