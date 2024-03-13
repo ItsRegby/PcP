@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\Git\PcP\Lab2\Lab2PcP_Ada\synchronize.gpr
+20240312150406 14f77c2341194622e1d7301b31d29d32
+[BOUND OBJECT FILES]
+D:\Git\PcP\Lab2\Lab2PcP_Ada\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\Git\PcP\Lab2\Lab2PcP_Ada\obj\
+-LD:\Git\PcP\Lab2\Lab2PcP_Ada\obj\
+-LD:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
