@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\Git\PcP\Lab3\lab3_pcp_ada.gpr
+20240326171026 bba2a4c0f19e284815985cfb74ef28d0
+[BOUND OBJECT FILES]
+D:\Git\PcP\Lab3\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\Git\PcP\Lab3\obj\
+-LD:\Git\PcP\Lab3\obj\
+-LD:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
