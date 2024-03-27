@@ -1,0 +1,140 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_PROTECTED_ENTRIES=2
+
+U stackpackage%b	stackpackage.adb	d536a758 NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U stackpackage%s	stackpackage.ads	2df01994 EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D stackpackage.ads	20240326211022 8304ccf9 stackpackage%s
+D stackpackage.adb	20240327082632 56326ba1 stackpackage%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [write stackpackage__stackbuffer 14 15 none]
+G c Z s b [read stackpackage__stackbuffer 15 15 none]
+G c Z s b [stackbuffer__pushN stackpackage 21 9 none]
+G c Z s b [stackbuffer__pushP stackpackage 21 9 none]
+G c Z s b [stackbuffer__popN stackpackage 22 9 none]
+G c Z s b [stackbuffer__popP stackpackage 22 9 none]
+G c Z s s [stackIP stackpackage 6 10 none]
+G c Z s s [stackstructIP stackpackage 8 10 none]
+G c Z s s [stackbufferTVDI stackpackage 13 5 none]
+G c Z s s [stackbufferTVDF stackpackage 13 5 none]
+G c Z s s [stackbufferTVIP stackpackage 13 5 none]
+G c Z s s [P7sIP stackpackage 14 9 none]
+G c Z s s [P11sIP stackpackage 15 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23
+X 10 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 1r27
+506U14*Put_Line 17|4s13 6s13 7s13 11s13 13s13 14s13
+X 16 stackpackage.ads
+3K9*stackPackage 25l5 25e17 17|1b14 28l5 28t17
+4i5*stackSize{integer} 18r32 19r24
+6A10*stack(integer)<integer> 9r13
+8R10*stackStruct 8d22 11e15 19r12
+8i22*stackSize{integer} 9r22
+9a9*st{6A10} 17|19m15 23r23
+10i9*ptr{integer} 17|3r59 10r58 18m15 18r24 19r20 23r28 24m15 24r24
+13w15*stackBuffer 17|2b20 26l9 26t20
+14Y15 Write 14>21 14>39 17|3b15 8l13 8t18
+14i21 Item{integer} 17|5r18 6r76
+14i39 Id{integer} 17|4r48 6r48 7r48
+15Y15 Read 15<20 15>39 17|10b15 15l13 15t17
+15i20 Item{integer} 17|12m17 13r74
+15i39 Id{integer} 17|11r48 13r48 14r48
+18i9 bufferSize{integer} 17|3r65
+19r9 s{8R10} 17|3r57 10r56 18r13 18r22 19r13 19r18 23r21 23r26 24r13 24r22
+21U19 push 21>24 17|5s13 17b19 20l13 20t17
+21i24 Item{integer} 17|17b24 19r28
+22U19 pop 22<23 17|12s13 22b19 25l13 25t16
+22i23 Item{integer} 17|22b23 23m13
+X 17 stackpackage.adb
+3i21 Item{integer}
+3i39 Id{integer}
+10i20 Item{integer}
+10i39 Id{integer}
+X 35 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

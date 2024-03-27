@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr
+20230513181758 345dbba319e0999f25c72057cc929695
+[BOUND OBJECT FILES]
+D:\PRODUCER_CONSUMER-master\obj\queuePackage.o
+D:\PRODUCER_CONSUMER-master\obj\stackPackage.o
+D:\PRODUCER_CONSUMER-master\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\PRODUCER_CONSUMER-master\obj\
+-LD:\PRODUCER_CONSUMER-master\obj\
+-LD:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

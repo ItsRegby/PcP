@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 32" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\stackPackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>D:\Git\PcP\Lab3\Stack_Queue\Producer_Consumer.gpr</vfs_project>
+      <vfs_file>D:\Git\PcP\Lab3\Stack_Queue\src\stackPackage.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 3">
+      <vfs_project  />
+      <vfs_file >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 69">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 57">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 27">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 73">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 62">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\queuePackage.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >D:\PRODUCER_CONSUMER-master\Producer_Consumer.gpr</vfs_project>
+      <vfs_file >D:\PRODUCER_CONSUMER-master\src\stackPackage.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
