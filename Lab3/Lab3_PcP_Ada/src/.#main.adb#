@@ -91,8 +91,7 @@ procedure Main is
          Access_Control.Release;
          Empty_Storage.Release;
       end loop;
-      Put_Line
-        ("Supplier #" & Supplier_Id'Img & " finished working");
+      Put_Line ("Supplier #" & Supplier_Id'Img & " finished working");
    end Supplier_Task;
 
    task type Receiver_Task is
@@ -113,15 +112,14 @@ procedure Main is
          declare
             Item_Value : String := First_Element (Storage);
          begin
-            Put_Line
-              ("Receiver #" & Receiver_Id'Img & " took " & Item_Value);
+            Put_Line ("Receiver #" & Receiver_Id'Img & " took " & Item_Value);
             Storage.Delete_First;
 
             Access_Control.Release;
             Full_Storage.Release;
          end;
       end loop;
-      Put_Line("Receiver #" & Receiver_Id'Img & " finished working");
+      Put_Line ("Receiver #" & Receiver_Id'Img & " finished working");
    end Receiver_Task;
 
    type Supplier_Array is array (Integer range <>) of Supplier_Task;

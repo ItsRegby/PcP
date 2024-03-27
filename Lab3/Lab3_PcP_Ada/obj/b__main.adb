@@ -351,9 +351,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   D:\Git\PcP\Lab3\obj\main.o
-   --   -LD:\Git\PcP\Lab3\obj\
-   --   -LD:\Git\PcP\Lab3\obj\
+   --   D:\Git\PcP\Lab3\Lab3_PcP_Ada\obj\main.o
+   --   -LD:\Git\PcP\Lab3\Lab3_PcP_Ada\obj\
+   --   -LD:\Git\PcP\Lab3\Lab3_PcP_Ada\obj\
    --   -LD:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnarl

@@ -12,7 +12,7 @@ class Consumer implements Runnable {
         try {
             for (int i = 0; i < totalItems; i++) {
                 storage.consume();
-                Thread.sleep(100); // симуляція використання
+                Thread.sleep(100);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();

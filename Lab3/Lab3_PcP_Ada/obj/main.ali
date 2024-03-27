@@ -112,7 +112,7 @@ D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20240326200210 b13b3aa5 main%b
+D main.adb		20240327081610 b13b3aa5 main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-addima.ads		20210520051132 a1ec9d3a system.address_image%s
 D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
@@ -177,8 +177,8 @@ X 5 a-cidlli.ads
 47k24*Indefinite_Doubly_Linked_Lists 413e50 29|3w21 8r32
 54R9 List<8|43R9> 29|62r21[8]
 154U14 Append 29|88s18[8]
-163U14 Delete_First 29|119s21[8]
-195V13 First_Element{string} 29|115s36[8]
+163U14 Delete_First 29|118s21[8]
+195V13 First_Element{string} 29|114s36[8]
 X 10 a-iteint.ads
 24h9 Forward_Iterator
 32h9 Reversible_Iterator<24R9[5|76]>
@@ -194,59 +194,59 @@ X 13 a-nudira.adb
 65V16 Random[52|86]{29|11I9} 53|402b13[29|72]
 X 20 a-textio.ads
 58K13*Text_IO 725e16 29|1w10 2r9
-506U14*Put_Line 29|89s10 94s7 117s13 125s7
+506U14*Put_Line 29|89s10 94s7 116s13 124s7
 X 23 gnat.ads
 34K9*GNAT 57e9 29|1r19 2r18
 X 24 g-semaph.ads
 38K14*Semaphores 97e20 29|1w24 2r23
 40i4*Default_Ceiling{30|101I12} 29|63r44 64r55 65r44
 47W19*Counting_Semaphore 68e26 29|63r21 64r21 65r21
-58Y13 Seize 29|84s23 85s25 111s24 112s25
-63U17 Release 29|91s25 92s24 121s28 122s26
+58Y13 Seize 29|84s23 85s25 110s24 111s25
+63U17 Release 29|91s25 92s24 120s28 121s26
 X 25 interfac.ads
 79M9*Unsigned_32
 82M9*Unsigned_64
 X 29 main.adb
-7U11*Main 7b11 147l5 147t9
+7U11*Main 7b11 146l5 146t9
 8K12 String_Lists[5|47] 9r8
 11I9 RandRange<short_short_integer> 72r63
-13w14 ItemControl 24b19 55l8 55t19 82r17 83r10 109r17 110r10 136r7
-14U17 Set_Production_Count 14>39 25b17 29l11 29t31 136s19
-14i39 Total{integer} 25b39 27r27 28r27 136r41
+13w14 ItemControl 24b19 55l8 55t19 82r17 83r10 108r17 109r10 135r7
+14U17 Set_Production_Count 14>39 25b17 29l11 29t31 135s19
+14i39 Total{integer} 25b39 27r27 28r27 135r41
 15U17 Decrement_Produced_Count 31b17 36l11 36t35 83s22
-16U17 Decrement_Consumed_Count 38b17 43l11 43t35 110s22
+16U17 Decrement_Consumed_Count 38b17 43l11 43t35 109s22
 17V16 Is_Production_Complete{boolean} 45b16 48l11 48t33 82s29
-18V16 Is_Consumption_Complete{boolean} 50b16 53l11 53t34 109s29
+18V16 Is_Consumption_Complete{boolean} 50b16 53l11 53t34 108s29
 20i7 Left_Produced{integer} 27r10 33r13 34r13 34r30 47r17
 21i7 Left_Consumed{integer} 28r10 40r13 41r13 41r30 52r17
 57i4 Storage_Size{integer} 64r41
-58i4 Num_Suppliers{integer} 133r40 138r21
-59i4 Num_Receivers{integer} 134r40 142r21
-60i4 Total_Items{integer} 136r50
-62r4 Storage{5|54R9[8]} 88m10 88r10 115r51 119m13 119r13
-63w4 Access_Control{24|47W19} 85r10 91r10 112r10 121r13
-64w4 Full_Storage{24|47W19} 84r10 122r13
-65w4 Empty_Storage{24|47W19} 92r10 111r10
-67T14 Supplier_Task 69l8 69e21 71b14 97l8 97t21 128r55
-68Y13 Initialize 68>25 78b14 80l11 80t21 139s24
+58i4 Num_Suppliers{integer} 132r40 137r21
+59i4 Num_Receivers{integer} 133r40 141r21
+60i4 Total_Items{integer} 135r50
+62r4 Storage{5|54R9[8]} 88m10 88r10 114r51 118m13 118r13
+63w4 Access_Control{24|47W19} 85r10 91r10 111r10 120r13
+64w4 Full_Storage{24|47W19} 84r10 121r13
+65w4 Empty_Storage{24|47W19} 92r10 110r10
+67T14 Supplier_Task 69l8 69e21 71b14 96l8 96t21 127r55
+68Y13 Initialize 68>25 78b14 80l11 80t21 138s24
 68i25 Num{integer} 79r25
 72K15 Random_Int[12|44] 73r11
 74i7 Supplier_Id{integer} 79m10 89r35 95r25
 75r7 Random_Gen{12|50R9[72]} 81r14 87r41
 76i7 Item_Value{integer} 87m10 88r35 89r68
 78i26 Num{integer}
-99T14 Receiver_Task 101l8 101e21 103b14 126l8 126t21 129r55
-100Y13 Initialize 100>25 106b14 108l11 108t21 143s24
-100i25 Num{integer} 107r25
-104i7 Receiver_Id{integer} 107m10 118r31 125r31
-106i26 Num{integer}
-115a13 Item_Value{string} 118r60
-128A9 Supplier_Array(67T14)<integer> 133r19
-129A9 Receiver_Array(99T14)<integer> 134r19
-133a7 Suppliers{128A9} 139r10
-134a7 Receivers{129A9} 143r10
-138i11 I{integer} 139r21 139r36
-142i11 I{integer} 143r21 143r36
+98T14 Receiver_Task 100l8 100e21 102b14 125l8 125t21 128r55
+99Y13 Initialize 99>25 105b14 107l11 107t21 142s24
+99i25 Num{integer} 106r25
+103i7 Receiver_Id{integer} 106m10 117r31 124r31
+105i26 Num{integer}
+114a13 Item_Value{string} 117r60
+127A9 Supplier_Array(67T14)<integer> 132r19
+128A9 Receiver_Array(98T14)<integer> 133r19
+132a7 Suppliers{127A9} 138r10
+133a7 Receivers{128A9} 142r10
+137i11 I{integer} 138r21 138r36
+141i11 I{integer} 142r21 142r36
 X 30 system.ads
 67M9*Address
 100I12*Any_Priority{integer}
