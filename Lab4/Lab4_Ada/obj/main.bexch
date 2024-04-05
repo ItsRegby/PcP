@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\Git\PcP\Lab4\Lab4_Ada\philosophers.gpr
+20240404175016 6f38d9989ce0125794af5ec6677adba1
+[BOUND OBJECT FILES]
+D:\Git\PcP\Lab4\Lab4_Ada\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\Git\PcP\Lab4\Lab4_Ada\obj\
+-LD:\Git\PcP\Lab4\Lab4_Ada\obj\
+-LD:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+D:/programs/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
