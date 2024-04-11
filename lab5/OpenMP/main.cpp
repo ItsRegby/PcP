@@ -20,7 +20,7 @@ long long get_sum(int num_threads, double& execution_time) {
     long long sum = 0;
     double t1 = omp_get_wtime();
 
-#pragma omp parallel for num_threads(num_threads) reduction(+:sum) 
+    #pragma omp parallel for num_threads(num_threads) reduction(+:sum) 
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             sum += arr[i][j];
@@ -36,14 +36,14 @@ void get_min_row(int num_threads, int& min_row, int& min_sum, double& execution_
     min_row = -1;
     double t1 = omp_get_wtime();
 
-#pragma omp parallel for num_threads(num_threads)
+    #pragma omp parallel for num_threads(num_threads)
     for (int i = 0; i < rows; i++) {
         long long row_sum = 0;
         for (int j = 0; j < cols; j++) {
             row_sum += arr[i][j];
         }
         if (row_sum < min_sum) {
-#pragma omp critical
+            #pragma omp critical
             {
                 if (row_sum < min_sum) {
                     min_sum = row_sum;
@@ -57,7 +57,7 @@ void get_min_row(int num_threads, int& min_row, int& min_sum, double& execution_
 }
 
 int main() {
-    int const max_thread = 8;
+    int const max_thread = 32;
     long long sum[max_thread];
     int min_sum[max_thread];
     int min_row[max_thread];
@@ -66,16 +66,16 @@ int main() {
 
     omp_set_nested(1);
     double t1 = omp_get_wtime();
-#pragma omp parallel sections
+    #pragma omp parallel sections
     {
-#pragma omp section
+        #pragma omp section
         {
             for (int i = 0; i < max_thread; i++)
             {
                sum[i] = get_sum(i + 1,executed_time[0][i]);
             }
         }
-#pragma omp section
+        #pragma omp section
         {
             for (int i = 0; i < max_thread; i++)
             {
