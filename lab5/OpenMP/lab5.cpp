@@ -57,7 +57,7 @@ void get_min_row(int num_threads, int& min_row, int& min_sum, double& execution_
 }
 
 int main() {
-    int const max_thread = 32;
+    int const max_thread = 8;
     long long sum[max_thread];
     int min_sum[max_thread];
     int min_row[max_thread];

@@ -19,30 +19,21 @@ void eat(int id)
 {
     printf("Philosopher %d is hungry...\n", id);
 
-    if (id == NO_PHILO - 1)
-    {
-        omp_set_lock(&chopstick[id]);
-        printf("----Philosopher %d took left chopstick...\n", id);
-        omp_set_lock(&chopstick[0]);
-        printf("----Philosopher %d took right chopstick...\n", id);
-        printf("----Philosopher %d is eating...\n", id);
-        sleep(2);
-        printf("----Philosopher %d finished eating -> releases chopsticks \n", id);
-        omp_unset_lock(&chopstick[0]);
-        omp_unset_lock(&chopstick[id]);
-    }
-    else
-    {
-        omp_set_lock(&chopstick[id]);
-        printf("----Philosopher %d took left chopstick...\n", id);
-        omp_set_lock(&chopstick[id + 1]);
-        printf("----Philosopher %d took right chopstick...\n", id);
-        printf("----Philosopher %d is eating...\n", id);
-        sleep(2);
-        printf("----Philosopher %d finished eating -> releases chopsticks \n", id);
-        omp_unset_lock(&chopstick[id + 1]);
-        omp_unset_lock(&chopstick[id]);
-    }
+    int left_chopstick = id;
+    int right_chopstick = (id + 1) % NO_PHILO;
+
+    omp_set_lock(&chopstick[left_chopstick]);
+    printf("----Philosopher %d took left chopstick...\n", id);
+    omp_set_lock(&chopstick[right_chopstick]);
+    printf("----Philosopher %d took right chopstick...\n", id);
+
+    printf("----Philosopher %d is eating...\n", id);
+    sleep(2);
+
+    printf("----Philosopher %d finished eating -> releases chopsticks \n", id);
+
+    omp_unset_lock(&chopstick[right_chopstick]);
+    omp_unset_lock(&chopstick[left_chopstick]);
 }
 
 void philosophize(int id)
@@ -65,7 +56,7 @@ int main()
         omp_init_lock(&chopstick[id]);
     }
 
-#pragma omp parallel for private(id)
+    #pragma omp parallel for private(id)
     for (id = 0; id < NO_PHILO; id++)
     {
         philosophize(id);
